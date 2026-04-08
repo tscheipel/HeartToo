@@ -15,7 +15,7 @@ HeartToo is a Garmin Connect IQ data field focused on heartrate display and hear
 - App name: HeartToo
 - Type: Connect IQ data field
 - Min API level: 3.2.0
-- Current version: 2.0.0.1
+- Current version: 2.0.0
 
 ## Supported Devices
 
