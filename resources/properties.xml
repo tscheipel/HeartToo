@@ -1,0 +1,73 @@
+<resources>
+
+    <properties>
+        <property id="appVersion" type="string">2.0.0</property>
+        <property id="showHeartZoneBar" type ="boolean">true</property>
+        <property id="heartZoneBarHeight" type ="number">4</property>
+        <property id="heartZoneIndexHeight" type ="number">4</property>
+        <property id="showHeartZoneHistory" type ="boolean">false</property>
+        <property id="drawLabels" type ="boolean">false</property>
+        <property id="drawCurrentZone" type ="boolean">false</property>
+        <property id="averageSec" type="number">3</property>
+        <property id="averageMode" type="number">0</property>
+        <property id="fontSize" type="number">0</property>
+        <property id="showAverageHeartRate" type="boolean">true</property>
+    </properties>
+
+    <settings>
+        <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersionTitle">
+        	<settingConfig type="alphaNumeric" readonly="true" />
+    	</setting>
+    		
+		<setting propertyKey="@Properties.showHeartZoneBar" title="@Strings.HeartZoneBar_title">
+			<settingConfig type="boolean" />
+		</setting>
+        
+        <setting propertyKey="@Properties.heartZoneBarHeight" title="@Strings.HeartZoneBarHeight_title">
+            <settingConfig type="numeric" min="0" max="15" />
+        </setting>
+        <setting propertyKey="@Properties.heartZoneIndexHeight" title="@Strings.HeartZoneIndexHeight_title">
+            <settingConfig type="numeric" min="0" max="15" />
+        </setting>
+
+		<setting propertyKey="@Properties.showHeartZoneHistory" title="@Strings.HeartZoneHistory_title">
+			<settingConfig type="boolean" />
+		</setting>
+
+		<setting propertyKey="@Properties.drawLabels" title="@Strings.drawLabels_title">
+			<settingConfig type="boolean" />
+		</setting>
+
+		<setting propertyKey="@Properties.drawCurrentZone" title="@Strings.drawCurrentZone_title">
+			<settingConfig type="boolean" />
+		</setting>
+
+		<setting propertyKey="@Properties.showAverageHeartRate" title="@Strings.ShowAverageHeartRate_title">
+			<settingConfig type="boolean" />
+		</setting>
+		
+        <setting propertyKey="@Properties.averageSec" title="@Strings.averageSec">
+            <settingConfig type="list">
+                <listEntry value="1">@Strings.modeNone</listEntry>
+                <listEntry value="3">@Strings.mode3s</listEntry>
+                <listEntry value="10">@Strings.mode10s</listEntry>
+                <listEntry value="30">@Strings.mode30s</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.averageMode" title="@Strings.averageMode">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.modeAvg_title</listEntry>
+                <listEntry value="1">@Strings.modeMax_title</listEntry>
+            </settingConfig>
+        </setting>
+
+        <setting propertyKey="@Properties.fontSize" title="@Strings.fontSize">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.modeSmall</listEntry>
+                <listEntry value="1">@Strings.modeLarge</listEntry>
+            </settingConfig>
+        </setting>
+        
+    </settings>
+</resources>

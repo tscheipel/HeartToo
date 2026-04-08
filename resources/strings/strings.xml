@@ -1,0 +1,29 @@
+﻿<strings>
+    <string id="AppName">HeartToo</string>
+    <string id="title">HR</string>
+    <string id="AppVersionTitle">App Version</string>
+    <string id="metric"></string>
+    <string id="labelAvg">Ø</string>
+    <string id="labelMax">Max</string>
+    <string id="HeartZoneBar_title">Show Heartrate Zone Bars at the bottom of field</string>
+    <string id="HeartZoneBarHeight_title">Height of the HR Zone Bars (px)</string>
+    <string id="HeartZoneIndexHeight_title">Increase in Height of the HR Zone Bars when current Zone (px)</string>
+    <string id="HeartZoneHistory_title">Show Heartrate Zone History</string>
+    <string id="drawLabels_title">Show Title Labels</string>
+    <string id="drawCurrentZone_title">Show Indication of Current Zone</string>
+    <string id="ShowAverageHeartRate_title">Show Average Heart Rate</string>
+    <string id="averageSec">Heartrate display mode</string>
+    <string id="modeNone">HR</string>
+    <string id="mode3s">3sHR</string>
+    <string id="mode10s">10sHR</string>
+    <string id="mode30s">30sHR</string>
+    <string id="averageMode">Display average or maximum heartrate value</string>
+    <string id="modeAvg">Ø</string>
+    <string id="modeMax">Max</string>
+    <string id="modeAvg_title">Average Heartrate</string>
+    <string id="modeMax_title">Maximum Heartrate</string>
+    <string id="fontSize">Secondary value font size</string>
+    <string id="modeSmall">Small font</string>
+    <string id="modeLarge">Large font</string>
+</strings>
+
